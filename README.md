@@ -8,10 +8,10 @@ CONTENTS:
 
 2. Register new members into the library
 
-3. Display the list of books including the no. of copies that book has remaining.
+3. a)Display the list of books including the no. of copies that book has remaining.
 If the the book has 0 copies remaining, display that it is "OUT OF STOCK".
 Prevent the administrator from issuing that book to a member.
-
+b) If the no of copies of the book equals 0 then check for ebook availability of that particular book
 4. Display the list of all the members
 Display the books each member has issued.
 Display the time remaining till they have to return it.
@@ -28,3 +28,4 @@ Late fees will be charged if the book isn't returned/renewed after 14 days
 Rs. 2 per day for 5 days
 Rs. 7 per day for the next 10 days
 Rs. 10 per day after that
+*Edit-Blacklist a person from issuing further books if book not returned after 30 days of issuing
